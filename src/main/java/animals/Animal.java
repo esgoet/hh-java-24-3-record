@@ -1,7 +1,9 @@
+package animals;
+
 public record Animal(
         int id,
         String name,
-        String species,
+        Species species,
         int age,
         Owner owner
 ) {
